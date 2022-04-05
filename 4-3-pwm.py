@@ -10,5 +10,6 @@ try:
         p.start(int(value))
         print(3.3 / 100 * int(value))
         p.stop()
+
 finally:
     GPIO.cleanup()
